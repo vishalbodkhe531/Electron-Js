@@ -1,0 +1,18 @@
+{
+  "name": "01basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electronmon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^35.1.2",
+    "electronmon": "^2.0.3"
+  }
+}
