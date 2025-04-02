@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require("electron");
+// const { app, BrowserWindow } = require("electron");
+import { app, BrowserWindow } from "electron";
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -9,11 +10,11 @@ function createWindow() {
     },
   });
 
-  win.loadURL("http://localhost:5173"); 
+  win.loadURL("http://localhost:5173");
 }
 
 app.whenReady().then(() => {
-  console.log("App is ready"); 
+  console.log("App is ready");
   createWindow();
 });
 
